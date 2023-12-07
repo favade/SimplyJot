@@ -1,0 +1,22 @@
+.App {
+  font-family: 'Arial', sans-serif;
+  background-color: #232330;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+
+}
+
+.journal-list {
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+
+
+
+
