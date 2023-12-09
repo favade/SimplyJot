@@ -17,9 +17,7 @@ function App() {
   const handleNoteSubmit = (event) => {
     event.preventDefault();
     const newJournalEntry = { title, note };
-
-  
-    fetch('http://localhost:5000/save_note', {
+    fetch("http://localhost:5000/" + NoteManager.save_note(), {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
